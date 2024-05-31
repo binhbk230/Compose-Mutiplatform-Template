@@ -5,6 +5,7 @@ import com.jetbrains.kmpapp.di.initKoin
 
 class MuseumApp : Application() {
     override fun onCreate() {
+        initKoin()
         super.onCreate()
     }
 }
